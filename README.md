@@ -37,7 +37,6 @@ Bitcoin price predictor is a dashboard that helps Bitcoin beginners make more ef
 - The model Perceiver is used to make Bitcoin price predictions. We combine the price imbeddings as well as sentiment embeddings into our feature vector and then use a latent convoy to make an initial guess of the price. Afterwards, the latent convoy would be refined through a cross attention with our feature vectors by focusing on specific features and adjusting forecasting prices. Finally, through the latent transformer, we make the final price prediction.
 
 ## About the Team
-In this folder there are 2 files to reproduce the results we have gathered throughout the year
 
 
 
