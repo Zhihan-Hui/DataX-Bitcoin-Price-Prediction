@@ -5,11 +5,11 @@ Bitcoin price predictor is a dashboard that helps Bitcoin beginners make more ef
 ### Folder Hierarchy
 
 - Historical Price: Contains code for loading OHLC data, EDA, and indicators.
-- - Historical Data Exploration.ipynb: Contains the code we used to download and do initial cleaning on a Kaggle OHLC dataset and a Gemini OHLC dataset.
-- - Indicator Implementation-BB.ipynb: Contains the code used for implementing bollinger bands indicator using the ‘ta’ library and based on daily opening and closing historical prices of bitcoin.
-- - RSI Indicator.py: Contained the code used for implementing the Relative Strength Indicator using the ‘ta’ library and based on daily opening and closing historical prices of bitcoin.
-- - btcstock.py: contains a class that provides easier access to minute-by-minute OHLC Bitcoin data from Bitstamp.
-- - price_util.py: Code used for extracting hourly and daily price data from OHLC datasets.
+  - Historical Data Exploration.ipynb: Contains the code we used to download and do initial cleaning on a Kaggle OHLC dataset and a Gemini OHLC dataset.
+  - Indicator Implementation-BB.ipynb: Contains the code used for implementing bollinger bands indicator using the ‘ta’ library and based on daily opening and closing historical prices of bitcoin.
+  - RSI Indicator.py: Contained the code used for implementing the Relative Strength Indicator using the ‘ta’ library and based on daily opening and closing historical prices of bitcoin.
+  - btcstock.py: contains a class that provides easier access to minute-by-minute OHLC Bitcoin data from Bitstamp.
+  - price_util.py: Code used for extracting hourly and daily price data from OHLC datasets.
 
 - Model: Contains code for running our prediction model based on both RoBERTa Twitter sentiment data and GRU Price imbedding OHLC bitcoin data. 
 
