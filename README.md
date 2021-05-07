@@ -27,7 +27,7 @@ Bitcoin price predictor is a dashboard that helps Bitcoin beginners make more ef
 
 ## Technical Sophistication and Efficiency
 ### System Architecture
-
+![alt text](https://github.com/Zhihan-Hui/DataX-Bitcoin-Price-Prediction/blob/main/README.file/architecture.jpg)
 
 
 ### Key Features：
