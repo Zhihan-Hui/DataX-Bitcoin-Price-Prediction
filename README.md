@@ -17,7 +17,7 @@ Bitcoin price predictor is a dashboard that helps Bitcoin beginners make more ef
   - data.py: Contains code that prefetches, samples, and iterates over our full Bitcoin dataset.
   - infer.py: Contains code that makes inferences about future price by calculating daily and total loss as well as using profiler. 
   - main.py: Contains the code to run our full prediction model.
-  - model.py: Contains the code that builds our Perceiver that makes predictions based on price imbeddings and sentiment imbeddings. Also contains code for 
+  - model.py: Contains the code that builds our Perceiver that makes predictions based on price imbeddings and sentiment imbeddings.
   - scrape.py: Contains code that scrapes tweets from twitter and saves the following fields ['id', 'conversation_id', 'date', 'user_id', 'username', 'name', 'tweet', 'replies_count', 'retweets_count', 'likes_count', 'link'] in a dataframe.
   - train.py: Contains code that trains our profiler and predictor using our Bitcoin dataset and twitter sentiments. 
   - tweety.py: contains a class with several methods that allow for fast tweet scraping using twint.
