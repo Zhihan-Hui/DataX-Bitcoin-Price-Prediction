@@ -1,5 +1,6 @@
 # Bitcoin Price Predictor
 Bitcoin price predictor is a dashboard that helps Bitcoin beginners make more effective investment decisions by giving them the prediction tools and credible investment suggestions backed up by machine learning models. It was designed by the Bitcoin Price Prediction team from UC Berkeley's Data-X course.
+![alt text](https://github.com/Zhihan-Hui/DataX-Bitcoin-Price-Prediction/blob/main/README.file/UI.jpg)
 
 ## Organization and Documentation
 ### Folder Hierarchy
@@ -29,7 +30,6 @@ Bitcoin price predictor is a dashboard that helps Bitcoin beginners make more ef
 ### System Architecture
 ![alt text](https://github.com/Zhihan-Hui/DataX-Bitcoin-Price-Prediction/blob/main/README.file/architecture.jpg)
 
-
 ### Key Features：
 - For bitcoin historical price, we collected the hourly bitcoin price from 2015 to 2021/03/31 and applied log normalization to rescale the raw price. Then we extracted the twitter data with “twint” (Python package). For the tweets we collected since 2015, we randomly sample 32 tweets according to the count of “like” and “retweet” each day with the hashtag "bitcoin". 
 - After collecting the data of tweets, we feed those tweets into a RoBERTa model pre-trained with sentiment classification, which transforms the tweets into an embedding of size 768 (mathematical representation of tweets' sentiment as a vector).
@@ -37,7 +37,7 @@ Bitcoin price predictor is a dashboard that helps Bitcoin beginners make more ef
 - The model Perceiver is used to make Bitcoin price predictions. We combine the price imbeddings as well as sentiment embeddings into our feature vector and then use a latent convoy to make an initial guess of the price. Afterwards, the latent convoy would be refined through a cross attention with our feature vectors by focusing on specific features and adjusting forecasting prices. Finally, through the latent transformer, we make the final price prediction.
 
 ## About the Team
-
+![alt text](https://github.com/Zhihan-Hui/DataX-Bitcoin-Price-Prediction/blob/main/README.file/member.jpg)
 
 
 
